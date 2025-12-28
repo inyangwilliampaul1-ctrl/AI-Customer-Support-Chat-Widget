@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Website Demo</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background: #f0f9ff;
+            color: #333;
+        }
+
+        header {
+            background: #fff;
+            padding: 20px 40px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-weight: bold;
+            font-size: 24px;
+            color: #2563eb;
+        }
+
+        .hero {
+            padding: 100px 20px;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 18px;
+            color: #666;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .cta-btn {
+            display: inline-block;
+            margin-top: 30px;
+            padding: 12px 30px;
+            background: #2563eb;
+            color: white;
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">Acme Corp</div>
+        <nav>
+            <a href="#" style="margin-left: 20px; text-decoration: none; color: #333;">Home</a>
+            <a href="#" style="margin-left: 20px; text-decoration: none; color: #333;">Pricing</a>
+            <a href="#" style="margin-left: 20px; text-decoration: none; color: #333;">Contact</a>
+        </nav>
+    </header>
+
+    <div class="hero">
+        <h1>Welcome to our Website</h1>
+        <p>This is a demo page simulating your customer's website.</p>
+        <p>Look at the bottom right corner! That's your AI Widget.</p>
+
+        <div style="margin-top: 50px; padding: 20px; background: #fff; border: 1px dashed #ccc; display: inline-block;">
+            <h3>How to test this:</h3>
+            <p>1. Go to your Dashboard -> Business.</p>
+            <p>2. Copy your <strong>API Key</strong>.</p>
+            <p>3. Edit this file (<code>public/demo.html</code>) and paste it below in the script tag.</p>
+        </div>
+    </div>
+
+    <!-- 
+      PASTE YOUR API KEY HERE 
+      Replace 'YOUR_API_KEY_HERE' with the key from your dashboard.
+    -->
+    <script src="/widget.js" data-api-key="efcda6cd-d84b-435c-afc5-ba4631545936"></script>
+
+</body>
+
+</html>
